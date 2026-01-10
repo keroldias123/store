@@ -4,11 +4,11 @@
     "main": "index.ts",
     "private": true,
     "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    },
     "devDependencies": {
-        "@store/tsconfig": "workspace:*",
-        "@store/biome": "workspace:*" 
+        "@store/biome": "workspace:*",
+        "@store/tsconfig": "workspace:*"
+    },
+    "dependencies": {
+        "zod": "^4.3.5"
     }
 }
