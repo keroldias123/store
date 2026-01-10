@@ -1,0 +1,14 @@
+{
+    "name": "@store/auth",
+    "version": "0.0.0",
+    "main": "index.ts",
+    "private": true,
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@store/tsconfig": "workspace:*",
+        "@store/biome": "workspace:*" 
+    }
+}
