@@ -1,0 +1,13 @@
+{
+  "name": "@store/biome",
+  "version": "0.0.0",
+  "main": "biome.json",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.11"
+  }
+}
