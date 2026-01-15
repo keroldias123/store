@@ -34,5 +34,6 @@ can(["transfer_ownership","update","delete","view","create"],"organization",{own
     can(["transfer_ownership","update","delete","view","create"],"organization",{ownerId:user.id})
     can(["transfer_ownership","update","delete","view","create"],"organization",{ownerId:user.id})
   },
+  
 }
 
