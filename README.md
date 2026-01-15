@@ -168,3 +168,4 @@ src/
 
 Este README serve como **documentação completa do projeto Trowdall**, pronto para começar o desenvolvimento com RBAC SaaS multi-empresa e funcionalidades de e-commerce completas.
 ## Atualização do README
+## Atualização do README
