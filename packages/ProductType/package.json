@@ -1,0 +1,11 @@
+{
+    "name": "@store/product-type",
+    "version": "1.0.0",
+    "description": "Product Type package",
+    "main": "index.js",
+    "keywords": [
+        "product-type"
+    ],
+    "author": "",
+    "license": "ISC"
+}
