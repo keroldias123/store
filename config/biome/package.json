@@ -4,7 +4,12 @@
   "main": "biome.json",
   "private": true,
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+ "exports": {
+    "./frontend": "./frontend.json",
+    "./backend": "./backend.json"
+  },
+  "biome": {
+    "frontend": "./frontend.json",
+    "backend": "./backend.json"
   }
 }
