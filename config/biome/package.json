@@ -1,15 +1,10 @@
 {
   "name": "@store/biome",
   "version": "0.0.0",
-  "main": "biome.json",
   "private": true,
   "license": "MIT",
  "exports": {
     "./frontend": "./frontend.json",
     "./backend": "./backend.json"
-  },
-  "biome": {
-    "frontend": "./frontend.json",
-    "backend": "./backend.json"
   }
 }
