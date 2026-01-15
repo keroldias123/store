@@ -4,6 +4,11 @@
     "main": "index.ts",
     "private": true,
     "license": "MIT",
+    "scripts": {
+        "lint": "biome lint .",
+        "format": "biome format . --write",
+        "check": "biome check ."
+    },
     "devDependencies": {
         "@store/biome": "workspace:*",
         "@store/tsconfig": "workspace:*"
