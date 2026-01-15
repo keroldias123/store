@@ -1,7 +1,7 @@
 {
     "name": "@store/auth",
     "version": "0.0.0",
-    "main": "index.ts",
+    "main": "src/index.ts",
     "private": true,
     "license": "MIT",
     "scripts": {
@@ -14,9 +14,12 @@
         "@store/tsconfig": "workspace:*"
     },
     "dependencies": {
+        "@casl/ability": "^6.7.5",
         "zod": "^4.3.5"
     },
     "biome": {
-    "extends": ["@store/biome/backend"]
-  }
+        "extends": [
+            "@store/biome/backend"
+        ]
+    }
 }
